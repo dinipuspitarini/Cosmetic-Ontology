@@ -1,0 +1,1152 @@
+<?xml version="1.0"?>
+<rdf:RDF xmlns="ftp://ftp.ebi.ac.uk/pub/databases/chebi/ontology/chebi.owl#"
+     xml:base="ftp://ftp.ebi.ac.uk/pub/databases/chebi/ontology/chebi.owl"
+     xmlns:dc="http://purl.org/dc/elements/1.1/"
+     xmlns:obo="http://purl.obolibrary.org/obo/"
+     xmlns:owl="http://www.w3.org/2002/07/owl#"
+     xmlns:rdf="http://www.w3.org/1999/02/22-rdf-syntax-ns#"
+     xmlns:xml="http://www.w3.org/XML/1998/namespace"
+     xmlns:xsd="http://www.w3.org/2001/XMLSchema#"
+     xmlns:obo2="http://purl.obolibrary.org/obo#"
+     xmlns:rdfs="http://www.w3.org/2000/01/rdf-schema#">
+    <owl:Ontology rdf:about="ftp://ftp.ebi.ac.uk/pub/databases/chebi/ontology/chebi.owl">
+        <dc:creator rdf:datatype="http://www.w3.org/2001/XMLSchema#string">The ChEBI curation team</dc:creator>
+        <dc:date rdf:datatype="http://www.w3.org/2001/XMLSchema#string">2014-08-31 11:42</dc:date>
+        <dc:description rdf:datatype="http://www.w3.org/2001/XMLSchema#string">Chemical Entities of Biological Interest (ChEBI) is a freely available dictionary of molecular entities focused on &apos;small&apos; chemical compounds.</dc:description>
+        <dc:title rdf:datatype="http://www.w3.org/2001/XMLSchema#string">Chemical Entities of Biological Interest (ChEBI)</dc:title>
+        <rdfs:label rdf:datatype="http://www.w3.org/2001/XMLSchema#string">ChEBI Release version 119</rdfs:label>
+        <rdfs:label rdf:datatype="http://www.w3.org/2001/XMLSchema#string">For any queries contact chebi-help@ebi.ac.uk or http://www.ebi.ac.uk/chebi</rdfs:label>
+        <owl:versionIRI rdf:datatype="http://www.w3.org/2001/XMLSchema#string">119</owl:versionIRI>
+    </owl:Ontology>
+    
+
+
+    <!-- 
+    ///////////////////////////////////////////////////////////////////////////////////////
+    //
+    // Annotation properties
+    //
+    ///////////////////////////////////////////////////////////////////////////////////////
+     -->
+
+    
+
+
+    <!-- ftp://ftp.ebi.ac.uk/pub/databases/chebi/ontology/chebi.owl#Chemical_Formula -->
+
+    <owl:AnnotationProperty rdf:about="ftp://ftp.ebi.ac.uk/pub/databases/chebi/ontology/chebi.owl#Chemical_Formula">
+        <rdfs:subPropertyOf rdf:resource="http://purl.obolibrary.org/obo#Synonym"/>
+    </owl:AnnotationProperty>
+    
+
+
+    <!-- http://purl.obolibrary.org/obo#Definition -->
+
+    <owl:AnnotationProperty rdf:about="http://purl.obolibrary.org/obo#Definition"/>
+    
+
+
+    <!-- http://purl.obolibrary.org/obo#InChI -->
+
+    <owl:AnnotationProperty rdf:about="http://purl.obolibrary.org/obo#InChI"/>
+    
+
+
+    <!-- http://purl.obolibrary.org/obo#InChIKey -->
+
+    <owl:AnnotationProperty rdf:about="http://purl.obolibrary.org/obo#InChIKey"/>
+    
+
+
+    <!-- http://purl.obolibrary.org/obo#SMILES -->
+
+    <owl:AnnotationProperty rdf:about="http://purl.obolibrary.org/obo#SMILES"/>
+    
+
+
+    <!-- http://purl.obolibrary.org/obo#Synonym -->
+
+    <owl:AnnotationProperty rdf:about="http://purl.obolibrary.org/obo#Synonym"/>
+    
+
+
+    <!-- http://purl.obolibrary.org/obo#altId -->
+
+    <owl:AnnotationProperty rdf:about="http://purl.obolibrary.org/obo#altId"/>
+    
+
+
+    <!-- http://purl.obolibrary.org/obo#xref -->
+
+    <owl:AnnotationProperty rdf:about="http://purl.obolibrary.org/obo#xref"/>
+    
+
+
+    <!-- http://purl.org/dc/elements/1.1/creator -->
+
+    <owl:AnnotationProperty rdf:about="http://purl.org/dc/elements/1.1/creator"/>
+    
+
+
+    <!-- http://purl.org/dc/elements/1.1/date -->
+
+    <owl:AnnotationProperty rdf:about="http://purl.org/dc/elements/1.1/date"/>
+    
+
+
+    <!-- http://purl.org/dc/elements/1.1/description -->
+
+    <owl:AnnotationProperty rdf:about="http://purl.org/dc/elements/1.1/description"/>
+    
+
+
+    <!-- http://purl.org/dc/elements/1.1/title -->
+
+    <owl:AnnotationProperty rdf:about="http://purl.org/dc/elements/1.1/title"/>
+    
+
+
+    <!-- http://www.w3.org/2002/07/owl#versionIRI -->
+
+    <owl:AnnotationProperty rdf:about="http://www.w3.org/2002/07/owl#versionIRI"/>
+    
+
+
+    <!-- 
+    ///////////////////////////////////////////////////////////////////////////////////////
+    //
+    // Object Properties
+    //
+    ///////////////////////////////////////////////////////////////////////////////////////
+     -->
+
+    
+
+
+    <!-- ftp://ftp.ebi.ac.uk/pub/databases/chebi/ontology/chebi.owl#hasIngredient -->
+
+    <owl:ObjectProperty rdf:about="ftp://ftp.ebi.ac.uk/pub/databases/chebi/ontology/chebi.owl#hasIngredient">
+        <rdfs:subPropertyOf rdf:resource="http://www.w3.org/2002/07/owl#topObjectProperty"/>
+        <owl:inverseOf rdf:resource="ftp://ftp.ebi.ac.uk/pub/databases/chebi/ontology/chebi.owl#isBaseOf"/>
+        <rdf:type rdf:resource="http://www.w3.org/2002/07/owl#IrreflexiveProperty"/>
+        <rdfs:domain rdf:resource="ftp://ftp.ebi.ac.uk/pub/databases/chebi/ontology/chebi.owl#Skincare"/>
+        <rdfs:range rdf:resource="ftp://ftp.ebi.ac.uk/pub/databases/chebi/ontology/chebi.owl#Skin_Lightening_Agents"/>
+        <rdfs:comment>Ingredients owned by a skincare.</rdfs:comment>
+    </owl:ObjectProperty>
+    
+
+
+    <!-- ftp://ftp.ebi.ac.uk/pub/databases/chebi/ontology/chebi.owl#hasRole -->
+
+    <owl:ObjectProperty rdf:about="ftp://ftp.ebi.ac.uk/pub/databases/chebi/ontology/chebi.owl#hasRole">
+        <rdfs:subPropertyOf rdf:resource="http://www.w3.org/2002/07/owl#topObjectProperty"/>
+        <rdf:type rdf:resource="http://www.w3.org/2002/07/owl#IrreflexiveProperty"/>
+        <rdfs:domain rdf:resource="ftp://ftp.ebi.ac.uk/pub/databases/chebi/ontology/chebi.owl#Allowed"/>
+        <rdfs:range rdf:resource="ftp://ftp.ebi.ac.uk/pub/databases/chebi/ontology/chebi.owl#Function"/>
+        <rdfs:comment>The function or role of skin lightening agent</rdfs:comment>
+    </owl:ObjectProperty>
+    
+
+
+    <!-- ftp://ftp.ebi.ac.uk/pub/databases/chebi/ontology/chebi.owl#isBaseOf -->
+
+    <owl:ObjectProperty rdf:about="ftp://ftp.ebi.ac.uk/pub/databases/chebi/ontology/chebi.owl#isBaseOf">
+        <rdfs:subPropertyOf rdf:resource="http://www.w3.org/2002/07/owl#topObjectProperty"/>
+        <rdf:type rdf:resource="http://www.w3.org/2002/07/owl#IrreflexiveProperty"/>
+        <rdfs:domain rdf:resource="ftp://ftp.ebi.ac.uk/pub/databases/chebi/ontology/chebi.owl#Skin_Lightening_Agents"/>
+        <rdfs:range rdf:resource="ftp://ftp.ebi.ac.uk/pub/databases/chebi/ontology/chebi.owl#Cream"/>
+        <rdfs:range rdf:resource="ftp://ftp.ebi.ac.uk/pub/databases/chebi/ontology/chebi.owl#Moisturizer"/>
+        <rdfs:range rdf:resource="ftp://ftp.ebi.ac.uk/pub/databases/chebi/ontology/chebi.owl#Serum"/>
+        <rdfs:range rdf:resource="ftp://ftp.ebi.ac.uk/pub/databases/chebi/ontology/chebi.owl#Toner"/>
+        <rdfs:comment>The inverse property to hasIngredient</rdfs:comment>
+    </owl:ObjectProperty>
+    
+
+
+    <!-- ftp://ftp.ebi.ac.uk/pub/databases/chebi/ontology/chebi.owl#isGoodFor -->
+
+    <owl:ObjectProperty rdf:about="ftp://ftp.ebi.ac.uk/pub/databases/chebi/ontology/chebi.owl#isGoodFor">
+        <rdfs:subPropertyOf rdf:resource="http://www.w3.org/2002/07/owl#topObjectProperty"/>
+        <rdf:type rdf:resource="http://www.w3.org/2002/07/owl#IrreflexiveProperty"/>
+        <rdfs:domain rdf:resource="ftp://ftp.ebi.ac.uk/pub/databases/chebi/ontology/chebi.owl#Skin_Lightening_Agents"/>
+        <rdfs:range rdf:resource="ftp://ftp.ebi.ac.uk/pub/databases/chebi/ontology/chebi.owl#Associated_Conditions"/>
+        <rdfs:comment>Components that are suitable for certain skin conditions.</rdfs:comment>
+    </owl:ObjectProperty>
+    
+
+
+    <!-- ftp://ftp.ebi.ac.uk/pub/databases/chebi/ontology/chebi.owl#treats -->
+
+    <owl:ObjectProperty rdf:about="ftp://ftp.ebi.ac.uk/pub/databases/chebi/ontology/chebi.owl#treats">
+        <rdfs:subPropertyOf rdf:resource="http://www.w3.org/2002/07/owl#topObjectProperty"/>
+        <rdf:type rdf:resource="http://www.w3.org/2002/07/owl#IrreflexiveProperty"/>
+        <rdfs:domain rdf:resource="ftp://ftp.ebi.ac.uk/pub/databases/chebi/ontology/chebi.owl#Skincare"/>
+        <rdfs:range rdf:resource="ftp://ftp.ebi.ac.uk/pub/databases/chebi/ontology/chebi.owl#Associated_Conditions"/>
+        <rdfs:comment>Skincare that can be used as a treatment for certain skin conditions.</rdfs:comment>
+    </owl:ObjectProperty>
+    
+
+
+    <!-- 
+    ///////////////////////////////////////////////////////////////////////////////////////
+    //
+    // Data properties
+    //
+    ///////////////////////////////////////////////////////////////////////////////////////
+     -->
+
+    
+
+
+    <!-- ftp://ftp.ebi.ac.uk/pub/databases/chebi/ontology/chebi.owl#chemicalFormula -->
+
+    <owl:DatatypeProperty rdf:about="ftp://ftp.ebi.ac.uk/pub/databases/chebi/ontology/chebi.owl#chemicalFormula">
+        <rdfs:subPropertyOf rdf:resource="http://www.w3.org/2002/07/owl#topDataProperty"/>
+        <rdf:type rdf:resource="http://www.w3.org/2002/07/owl#FunctionalProperty"/>
+        <rdfs:domain rdf:resource="ftp://ftp.ebi.ac.uk/pub/databases/chebi/ontology/chebi.owl#Skin_Lightening_Agents"/>
+        <rdfs:range rdf:resource="http://www.w3.org/2001/XMLSchema#string"/>
+        <rdfs:comment>Provides information about the ratio of the atoms that make up the component.</rdfs:comment>
+    </owl:DatatypeProperty>
+    
+
+
+    <!-- 
+    ///////////////////////////////////////////////////////////////////////////////////////
+    //
+    // Classes
+    //
+    ///////////////////////////////////////////////////////////////////////////////////////
+     -->
+
+    
+
+
+    <!-- ftp://ftp.ebi.ac.uk/pub/databases/chebi/ontology/chebi.owl#Allowed -->
+
+    <owl:Class rdf:about="ftp://ftp.ebi.ac.uk/pub/databases/chebi/ontology/chebi.owl#Allowed">
+        <rdfs:subClassOf rdf:resource="ftp://ftp.ebi.ac.uk/pub/databases/chebi/ontology/chebi.owl#Skin_Lightening_Agents"/>
+        <rdfs:subClassOf>
+            <owl:Restriction>
+                <owl:onProperty rdf:resource="ftp://ftp.ebi.ac.uk/pub/databases/chebi/ontology/chebi.owl#isBaseOf"/>
+                <owl:someValuesFrom rdf:resource="ftp://ftp.ebi.ac.uk/pub/databases/chebi/ontology/chebi.owl#Skincare"/>
+            </owl:Restriction>
+        </rdfs:subClassOf>
+        <owl:disjointWith rdf:resource="ftp://ftp.ebi.ac.uk/pub/databases/chebi/ontology/chebi.owl#Not_Allowed"/>
+    </owl:Class>
+    
+
+
+    <!-- ftp://ftp.ebi.ac.uk/pub/databases/chebi/ontology/chebi.owl#Associated_Conditions -->
+
+    <owl:Class rdf:about="ftp://ftp.ebi.ac.uk/pub/databases/chebi/ontology/chebi.owl#Associated_Conditions">
+        <owl:disjointWith rdf:resource="ftp://ftp.ebi.ac.uk/pub/databases/chebi/ontology/chebi.owl#Function"/>
+        <obo2:Definition>Skin conditions that may occur and associated with skin color</obo2:Definition>
+    </owl:Class>
+    
+
+
+    <!-- ftp://ftp.ebi.ac.uk/pub/databases/chebi/ontology/chebi.owl#Atopic_dermatitis -->
+
+    <owl:Class rdf:about="ftp://ftp.ebi.ac.uk/pub/databases/chebi/ontology/chebi.owl#Atopic_dermatitis">
+        <rdfs:subClassOf rdf:resource="ftp://ftp.ebi.ac.uk/pub/databases/chebi/ontology/chebi.owl#Hypopigmentation"/>
+    </owl:Class>
+    
+
+
+    <!-- ftp://ftp.ebi.ac.uk/pub/databases/chebi/ontology/chebi.owl#Birthmarks -->
+
+    <owl:Class rdf:about="ftp://ftp.ebi.ac.uk/pub/databases/chebi/ontology/chebi.owl#Birthmarks">
+        <rdfs:subClassOf rdf:resource="ftp://ftp.ebi.ac.uk/pub/databases/chebi/ontology/chebi.owl#Associated_Conditions"/>
+    </owl:Class>
+    
+
+
+    <!-- ftp://ftp.ebi.ac.uk/pub/databases/chebi/ontology/chebi.owl#Cream -->
+
+    <owl:Class rdf:about="ftp://ftp.ebi.ac.uk/pub/databases/chebi/ontology/chebi.owl#Cream">
+        <rdfs:subClassOf rdf:resource="ftp://ftp.ebi.ac.uk/pub/databases/chebi/ontology/chebi.owl#Skincare"/>
+        <obo2:Definition>A pharmaceutical preparation containing one or more well-dispersed medicinal ingredients in the form of a water emulsion in oil (a/m) or oil in water (m/a), contains no less than 60% water.</obo2:Definition>
+    </owl:Class>
+    
+
+
+    <!-- ftp://ftp.ebi.ac.uk/pub/databases/chebi/ontology/chebi.owl#Dark_spot -->
+
+    <owl:Class rdf:about="ftp://ftp.ebi.ac.uk/pub/databases/chebi/ontology/chebi.owl#Dark_spot">
+        <rdfs:subClassOf rdf:resource="ftp://ftp.ebi.ac.uk/pub/databases/chebi/ontology/chebi.owl#Associated_Conditions"/>
+        <obo2:Definition>are black spots the one on the face</obo2:Definition>
+    </owl:Class>
+    
+
+
+    <!-- ftp://ftp.ebi.ac.uk/pub/databases/chebi/ontology/chebi.owl#Depigmentation -->
+
+    <owl:Class rdf:about="ftp://ftp.ebi.ac.uk/pub/databases/chebi/ontology/chebi.owl#Depigmentation">
+        <rdfs:subClassOf rdf:resource="ftp://ftp.ebi.ac.uk/pub/databases/chebi/ontology/chebi.owl#Associated_Conditions"/>
+    </owl:Class>
+    
+
+
+    <!-- ftp://ftp.ebi.ac.uk/pub/databases/chebi/ontology/chebi.owl#Function -->
+
+    <owl:Class rdf:about="ftp://ftp.ebi.ac.uk/pub/databases/chebi/ontology/chebi.owl#Function">
+        <obo2:Definition>The functions of mostly skin lightening agent</obo2:Definition>
+    </owl:Class>
+    
+
+
+    <!-- ftp://ftp.ebi.ac.uk/pub/databases/chebi/ontology/chebi.owl#Hypopigmentation -->
+
+    <owl:Class rdf:about="ftp://ftp.ebi.ac.uk/pub/databases/chebi/ontology/chebi.owl#Hypopigmentation">
+        <rdfs:subClassOf rdf:resource="ftp://ftp.ebi.ac.uk/pub/databases/chebi/ontology/chebi.owl#Associated_Conditions"/>
+    </owl:Class>
+    
+
+
+    <!-- ftp://ftp.ebi.ac.uk/pub/databases/chebi/ontology/chebi.owl#Moisturizer -->
+
+    <owl:Class rdf:about="ftp://ftp.ebi.ac.uk/pub/databases/chebi/ontology/chebi.owl#Moisturizer">
+        <rdfs:subClassOf rdf:resource="ftp://ftp.ebi.ac.uk/pub/databases/chebi/ontology/chebi.owl#Skincare"/>
+        <obo2:Definition>Facial care products in the form of moisturizers. If you often have dry skin problems</obo2:Definition>
+    </owl:Class>
+    
+
+
+    <!-- ftp://ftp.ebi.ac.uk/pub/databases/chebi/ontology/chebi.owl#Not_Allowed -->
+
+    <owl:Class rdf:about="ftp://ftp.ebi.ac.uk/pub/databases/chebi/ontology/chebi.owl#Not_Allowed">
+        <rdfs:subClassOf rdf:resource="ftp://ftp.ebi.ac.uk/pub/databases/chebi/ontology/chebi.owl#Skin_Lightening_Agents"/>
+        <rdfs:subClassOf>
+            <owl:Class>
+                <owl:complementOf>
+                    <owl:Restriction>
+                        <owl:onProperty rdf:resource="ftp://ftp.ebi.ac.uk/pub/databases/chebi/ontology/chebi.owl#isBaseOf"/>
+                        <owl:someValuesFrom rdf:resource="ftp://ftp.ebi.ac.uk/pub/databases/chebi/ontology/chebi.owl#Skincare"/>
+                    </owl:Restriction>
+                </owl:complementOf>
+            </owl:Class>
+        </rdfs:subClassOf>
+    </owl:Class>
+    
+
+
+    <!-- ftp://ftp.ebi.ac.uk/pub/databases/chebi/ontology/chebi.owl#Pigmented -->
+
+    <owl:Class rdf:about="ftp://ftp.ebi.ac.uk/pub/databases/chebi/ontology/chebi.owl#Pigmented">
+        <rdfs:subClassOf rdf:resource="ftp://ftp.ebi.ac.uk/pub/databases/chebi/ontology/chebi.owl#Birthmarks"/>
+    </owl:Class>
+    
+
+
+    <!-- ftp://ftp.ebi.ac.uk/pub/databases/chebi/ontology/chebi.owl#Post_Inflammatory -->
+
+    <owl:Class rdf:about="ftp://ftp.ebi.ac.uk/pub/databases/chebi/ontology/chebi.owl#Post_Inflammatory">
+        <rdfs:subClassOf rdf:resource="ftp://ftp.ebi.ac.uk/pub/databases/chebi/ontology/chebi.owl#Associated_Conditions"/>
+    </owl:Class>
+    
+
+
+    <!-- ftp://ftp.ebi.ac.uk/pub/databases/chebi/ontology/chebi.owl#Rare_genetic -->
+
+    <owl:Class rdf:about="ftp://ftp.ebi.ac.uk/pub/databases/chebi/ontology/chebi.owl#Rare_genetic">
+        <rdfs:subClassOf rdf:resource="ftp://ftp.ebi.ac.uk/pub/databases/chebi/ontology/chebi.owl#Hypopigmentation"/>
+    </owl:Class>
+    
+
+
+    <!-- ftp://ftp.ebi.ac.uk/pub/databases/chebi/ontology/chebi.owl#Serum -->
+
+    <owl:Class rdf:about="ftp://ftp.ebi.ac.uk/pub/databases/chebi/ontology/chebi.owl#Serum">
+        <rdfs:subClassOf rdf:resource="ftp://ftp.ebi.ac.uk/pub/databases/chebi/ontology/chebi.owl#Skincare"/>
+        <obo2:Definition>That is in the form of blood cell components, also not coagulation factors, serum is blood plasma without fibrinogen. Serum consists of all proteins (which are not used for blood clotting) including electrolyte fluids, antibodies, and hormones.</obo2:Definition>
+    </owl:Class>
+    
+
+
+    <!-- ftp://ftp.ebi.ac.uk/pub/databases/chebi/ontology/chebi.owl#Skin_Lightening_Agents -->
+
+    <owl:Class rdf:about="ftp://ftp.ebi.ac.uk/pub/databases/chebi/ontology/chebi.owl#Skin_Lightening_Agents">
+        <rdfs:subClassOf>
+            <owl:Restriction>
+                <owl:onProperty rdf:resource="ftp://ftp.ebi.ac.uk/pub/databases/chebi/ontology/chebi.owl#hasRole"/>
+                <owl:someValuesFrom rdf:resource="ftp://ftp.ebi.ac.uk/pub/databases/chebi/ontology/chebi.owl#Function"/>
+            </owl:Restriction>
+        </rdfs:subClassOf>
+        <rdfs:subClassOf>
+            <owl:Restriction>
+                <owl:onProperty rdf:resource="ftp://ftp.ebi.ac.uk/pub/databases/chebi/ontology/chebi.owl#isGoodFor"/>
+                <owl:someValuesFrom rdf:resource="ftp://ftp.ebi.ac.uk/pub/databases/chebi/ontology/chebi.owl#Associated_Conditions"/>
+            </owl:Restriction>
+        </rdfs:subClassOf>
+        <owl:disjointWith rdf:resource="ftp://ftp.ebi.ac.uk/pub/databases/chebi/ontology/chebi.owl#Skincare"/>
+        <obo2:Definition>Component that can brighten your skin</obo2:Definition>
+    </owl:Class>
+    
+
+
+    <!-- ftp://ftp.ebi.ac.uk/pub/databases/chebi/ontology/chebi.owl#Skin_injuries -->
+
+    <owl:Class rdf:about="ftp://ftp.ebi.ac.uk/pub/databases/chebi/ontology/chebi.owl#Skin_injuries">
+        <rdfs:subClassOf rdf:resource="ftp://ftp.ebi.ac.uk/pub/databases/chebi/ontology/chebi.owl#Hypopigmentation"/>
+    </owl:Class>
+    
+
+
+    <!-- ftp://ftp.ebi.ac.uk/pub/databases/chebi/ontology/chebi.owl#Skincare -->
+
+    <owl:Class rdf:about="ftp://ftp.ebi.ac.uk/pub/databases/chebi/ontology/chebi.owl#Skincare">
+        <rdfs:subClassOf>
+            <owl:Class>
+                <owl:complementOf>
+                    <owl:Restriction>
+                        <owl:onProperty rdf:resource="ftp://ftp.ebi.ac.uk/pub/databases/chebi/ontology/chebi.owl#hasIngredient"/>
+                        <owl:someValuesFrom rdf:resource="ftp://ftp.ebi.ac.uk/pub/databases/chebi/ontology/chebi.owl#Not_Allowed"/>
+                    </owl:Restriction>
+                </owl:complementOf>
+            </owl:Class>
+        </rdfs:subClassOf>
+        <rdfs:subClassOf>
+            <owl:Restriction>
+                <owl:onProperty rdf:resource="ftp://ftp.ebi.ac.uk/pub/databases/chebi/ontology/chebi.owl#hasIngredient"/>
+                <owl:someValuesFrom rdf:resource="ftp://ftp.ebi.ac.uk/pub/databases/chebi/ontology/chebi.owl#Allowed"/>
+            </owl:Restriction>
+        </rdfs:subClassOf>
+        <rdfs:subClassOf>
+            <owl:Restriction>
+                <owl:onProperty rdf:resource="ftp://ftp.ebi.ac.uk/pub/databases/chebi/ontology/chebi.owl#treats"/>
+                <owl:someValuesFrom rdf:resource="ftp://ftp.ebi.ac.uk/pub/databases/chebi/ontology/chebi.owl#Associated_Conditions"/>
+            </owl:Restriction>
+        </rdfs:subClassOf>
+        <obo2:Definition>Products often use as treatment</obo2:Definition>
+    </owl:Class>
+    
+
+
+    <!-- ftp://ftp.ebi.ac.uk/pub/databases/chebi/ontology/chebi.owl#Toner -->
+
+    <owl:Class rdf:about="ftp://ftp.ebi.ac.uk/pub/databases/chebi/ontology/chebi.owl#Toner">
+        <rdfs:subClassOf rdf:resource="ftp://ftp.ebi.ac.uk/pub/databases/chebi/ontology/chebi.owl#Skincare"/>
+        <obo2:Definition>Toner is a skin care product used on the face using cotton. The texture is diluted, soft, and not irritative, so it is quite safe to use to clean the face.</obo2:Definition>
+    </owl:Class>
+    
+
+
+    <!-- ftp://ftp.ebi.ac.uk/pub/databases/chebi/ontology/chebi.owl#Vascular -->
+
+    <owl:Class rdf:about="ftp://ftp.ebi.ac.uk/pub/databases/chebi/ontology/chebi.owl#Vascular">
+        <rdfs:subClassOf rdf:resource="ftp://ftp.ebi.ac.uk/pub/databases/chebi/ontology/chebi.owl#Birthmarks"/>
+    </owl:Class>
+    
+
+
+    <!-- 
+    ///////////////////////////////////////////////////////////////////////////////////////
+    //
+    // Individuals
+    //
+    ///////////////////////////////////////////////////////////////////////////////////////
+     -->
+
+    
+
+
+    <!-- ftp://ftp.ebi.ac.uk/pub/databases/chebi/ontology/chebi.owl#Acne_scars -->
+
+    <owl:NamedIndividual rdf:about="ftp://ftp.ebi.ac.uk/pub/databases/chebi/ontology/chebi.owl#Acne_scars">
+        <rdf:type rdf:resource="ftp://ftp.ebi.ac.uk/pub/databases/chebi/ontology/chebi.owl#Dark_spot"/>
+    </owl:NamedIndividual>
+    
+
+
+    <!-- ftp://ftp.ebi.ac.uk/pub/databases/chebi/ontology/chebi.owl#Age_spot -->
+
+    <owl:NamedIndividual rdf:about="ftp://ftp.ebi.ac.uk/pub/databases/chebi/ontology/chebi.owl#Age_spot">
+        <rdf:type rdf:resource="ftp://ftp.ebi.ac.uk/pub/databases/chebi/ontology/chebi.owl#Dark_spot"/>
+    </owl:NamedIndividual>
+    
+
+
+    <!-- ftp://ftp.ebi.ac.uk/pub/databases/chebi/ontology/chebi.owl#Albinism -->
+
+    <owl:NamedIndividual rdf:about="ftp://ftp.ebi.ac.uk/pub/databases/chebi/ontology/chebi.owl#Albinism">
+        <rdf:type rdf:resource="ftp://ftp.ebi.ac.uk/pub/databases/chebi/ontology/chebi.owl#Rare_genetic"/>
+        <obo2:Definition>Albinism is a genetic disorder caused by a lack of production of melanin, the pigment that gives skin, hair and eyes their color.</obo2:Definition>
+    </owl:NamedIndividual>
+    
+
+
+    <!-- ftp://ftp.ebi.ac.uk/pub/databases/chebi/ontology/chebi.owl#Alpha_hidroxy_acid -->
+
+    <owl:NamedIndividual rdf:about="ftp://ftp.ebi.ac.uk/pub/databases/chebi/ontology/chebi.owl#Alpha_hidroxy_acid">
+        <rdf:type rdf:resource="ftp://ftp.ebi.ac.uk/pub/databases/chebi/ontology/chebi.owl#Allowed"/>
+        <hasRole rdf:resource="ftp://ftp.ebi.ac.uk/pub/databases/chebi/ontology/chebi.owl#Exfoliation"/>
+        <isBaseOf rdf:resource="ftp://ftp.ebi.ac.uk/pub/databases/chebi/ontology/chebi.owl#Exfoliating_toner"/>
+        <isGoodFor rdf:resource="ftp://ftp.ebi.ac.uk/pub/databases/chebi/ontology/chebi.owl#Post_Inflammatory_Erythema"/>
+        <obo2:Definition>&quot;A compound, RkE(=O)lNHOH, derived from an oxoacid RkE(=O)l(OH) (l ≠ 0) by replacing ‒OH with ‒NHOH, and derivatives thereof. Specific examples of hydroxamic acids are preferably named as N-hydroxy amides.&quot;</obo2:Definition>
+    </owl:NamedIndividual>
+    
+
+
+    <!-- ftp://ftp.ebi.ac.uk/pub/databases/chebi/ontology/chebi.owl#Anti_Inflammatory -->
+
+    <owl:NamedIndividual rdf:about="ftp://ftp.ebi.ac.uk/pub/databases/chebi/ontology/chebi.owl#Anti_Inflammatory"/>
+    
+
+
+    <!-- ftp://ftp.ebi.ac.uk/pub/databases/chebi/ontology/chebi.owl#Anti_inflammatory -->
+
+    <owl:NamedIndividual rdf:about="ftp://ftp.ebi.ac.uk/pub/databases/chebi/ontology/chebi.owl#Anti_inflammatory">
+        <rdf:type rdf:resource="ftp://ftp.ebi.ac.uk/pub/databases/chebi/ontology/chebi.owl#Function"/>
+        <obo2:Definition>Anti-inflammatory or anti-inflammatory are properties (eg properties of a drug or food) that reduce inflammation (inflammation). Anti-inflammatory also provides analgesic and antipyretic effects as well as anti-diseases in the central nervous system such as migraines.</obo2:Definition>
+    </owl:NamedIndividual>
+    
+
+
+    <!-- ftp://ftp.ebi.ac.uk/pub/databases/chebi/ontology/chebi.owl#Arbutin -->
+
+    <owl:NamedIndividual rdf:about="ftp://ftp.ebi.ac.uk/pub/databases/chebi/ontology/chebi.owl#Arbutin">
+        <rdf:type rdf:resource="ftp://ftp.ebi.ac.uk/pub/databases/chebi/ontology/chebi.owl#Allowed"/>
+        <rdf:type rdf:resource="ftp://ftp.ebi.ac.uk/pub/databases/chebi/ontology/chebi.owl#Skin_Lightening_Agents"/>
+        <rdf:type>
+            <owl:Restriction>
+                <owl:onProperty rdf:resource="ftp://ftp.ebi.ac.uk/pub/databases/chebi/ontology/chebi.owl#isGoodFor"/>
+                <owl:someValuesFrom rdf:resource="ftp://ftp.ebi.ac.uk/pub/databases/chebi/ontology/chebi.owl#Associated_Conditions"/>
+            </owl:Restriction>
+        </rdf:type>
+        <hasRole rdf:resource="ftp://ftp.ebi.ac.uk/pub/databases/chebi/ontology/chebi.owl#Inhibit_Tyrosinase"/>
+        <isBaseOf rdf:resource="ftp://ftp.ebi.ac.uk/pub/databases/chebi/ontology/chebi.owl#Brightening_Serum"/>
+        <isBaseOf rdf:resource="ftp://ftp.ebi.ac.uk/pub/databases/chebi/ontology/chebi.owl#Hydrating_moisturizer"/>
+        <isBaseOf rdf:resource="ftp://ftp.ebi.ac.uk/pub/databases/chebi/ontology/chebi.owl#Night_cream"/>
+        <chemicalFormula>C12H15O10P</chemicalFormula>
+        <obo2:Definition>&quot;Definition \&quot;A heterocyclic thia fatty acid comprising pentanoic acid with a 1,2-dithiolan-3-yl group at the 5-position.\&quot;&quot;</obo2:Definition>
+        <obo2:InChI>1S/C8H14O2S2/c9-8(10)4-2-1-3-7-5-6-11-12-7/h7H,1-6H2,(H,9,10)</obo2:InChI>
+        <obo2:InChIKey>AGBQKNBQESQNJD-UHFFFAOYSA-N</obo2:InChIKey>
+        <obo2:SMILES>AGBQKNBQESQNJD-UHFFFAOYSA-N</obo2:SMILES>
+    </owl:NamedIndividual>
+    
+
+
+    <!-- ftp://ftp.ebi.ac.uk/pub/databases/chebi/ontology/chebi.owl#Ascorbic_acid -->
+
+    <owl:NamedIndividual rdf:about="ftp://ftp.ebi.ac.uk/pub/databases/chebi/ontology/chebi.owl#Ascorbic_acid">
+        <rdf:type rdf:resource="ftp://ftp.ebi.ac.uk/pub/databases/chebi/ontology/chebi.owl#Allowed"/>
+        <hasRole rdf:resource="ftp://ftp.ebi.ac.uk/pub/databases/chebi/ontology/chebi.owl#Protect_From_Free_Radical"/>
+        <isBaseOf rdf:resource="ftp://ftp.ebi.ac.uk/pub/databases/chebi/ontology/chebi.owl#Day_cream"/>
+        <isGoodFor rdf:resource="ftp://ftp.ebi.ac.uk/pub/databases/chebi/ontology/chebi.owl#Acne_scars"/>
+        <chemicalFormula rdf:datatype="http://www.w3.org/2001/XMLSchema#string">C6H8O6</chemicalFormula>
+        <obo2:Definition>A β-D-glucoside compound having a phosphate group at the 6-position and a 4-hydroxyphenyl substituent at the 1-position</obo2:Definition>
+        <obo2:InChI>1S/C12H17O10P/c13-6-1-3-7(4-2-6)21-12-11(16)10(15)9(14)8(22-12)5-20-23(17,18)19/h1-4,8-16H,5H2,(H2,17,18,19)/t8-,9-,10+,11-,12-/m1/s1</obo2:InChI>
+        <obo2:InChIKey>FBHYCDOVYMVLEN-RMPHRYRLSA-N</obo2:InChIKey>
+        <obo2:SMILES>O[C@H]1[C@H](O)[C@@H](O)[C@@H](O[C@@H]1COP(O)(O)=O)Oc1ccc(O)cc1</obo2:SMILES>
+        <obo2:Synonym>Arbutin 6-phosphate
+Arbutin-6P</obo2:Synonym>
+    </owl:NamedIndividual>
+    
+
+
+    <!-- ftp://ftp.ebi.ac.uk/pub/databases/chebi/ontology/chebi.owl#Azelaic_acid -->
+
+    <owl:NamedIndividual rdf:about="ftp://ftp.ebi.ac.uk/pub/databases/chebi/ontology/chebi.owl#Azelaic_acid">
+        <rdf:type rdf:resource="ftp://ftp.ebi.ac.uk/pub/databases/chebi/ontology/chebi.owl#Allowed"/>
+        <rdf:type rdf:resource="ftp://ftp.ebi.ac.uk/pub/databases/chebi/ontology/chebi.owl#Skin_Lightening_Agents"/>
+        <rdf:type>
+            <owl:Restriction>
+                <owl:onProperty rdf:resource="ftp://ftp.ebi.ac.uk/pub/databases/chebi/ontology/chebi.owl#isGoodFor"/>
+                <owl:someValuesFrom rdf:resource="ftp://ftp.ebi.ac.uk/pub/databases/chebi/ontology/chebi.owl#Associated_Conditions"/>
+            </owl:Restriction>
+        </rdf:type>
+        <hasRole rdf:resource="ftp://ftp.ebi.ac.uk/pub/databases/chebi/ontology/chebi.owl#Inhibit_Tyrosinase"/>
+        <isBaseOf rdf:resource="ftp://ftp.ebi.ac.uk/pub/databases/chebi/ontology/chebi.owl#Brightening_Serum"/>
+        <isBaseOf rdf:resource="ftp://ftp.ebi.ac.uk/pub/databases/chebi/ontology/chebi.owl#Hydrating_moisturizer"/>
+        <chemicalFormula rdf:datatype="http://www.w3.org/2001/XMLSchema#string">C9H18N2O5</chemicalFormula>
+        <Chemical_Formula rdf:datatype="http://www.w3.org/2001/XMLSchema#string">C9H18N2O5</Chemical_Formula>
+        <obo2:Definition>A α,ω-dicarboxylic acid that is azelaic acid substituted by amino groups at positions 2 and 6.</obo2:Definition>
+        <obo2:InChI>1S/C9H18N2O5/c10-5(7(12)4-8(13)14)2-1-3-6(11)9(15)16/h5-7,12H,1-4,10-11H2,(H,13,14)(H,15,16)</obo2:InChI>
+        <obo2:InChIKey>XMYUTJGBCFJNFF-UHFFFAOYSA-N</obo2:InChIKey>
+        <obo2:SMILES>NC(CCCC(N)C(O)=O)C(O)CC(O)=O</obo2:SMILES>
+        <obo2:Synonym>2,6-Diamino-7-hydroxy-azelaic acid</obo2:Synonym>
+    </owl:NamedIndividual>
+    
+
+
+    <!-- ftp://ftp.ebi.ac.uk/pub/databases/chebi/ontology/chebi.owl#Brightening_Serum -->
+
+    <owl:NamedIndividual rdf:about="ftp://ftp.ebi.ac.uk/pub/databases/chebi/ontology/chebi.owl#Brightening_Serum">
+        <rdf:type rdf:resource="ftp://ftp.ebi.ac.uk/pub/databases/chebi/ontology/chebi.owl#Serum"/>
+        <hasIngredient rdf:resource="ftp://ftp.ebi.ac.uk/pub/databases/chebi/ontology/chebi.owl#Arbutin"/>
+        <hasIngredient rdf:resource="ftp://ftp.ebi.ac.uk/pub/databases/chebi/ontology/chebi.owl#Azelaic_acid"/>
+        <hasIngredient rdf:resource="ftp://ftp.ebi.ac.uk/pub/databases/chebi/ontology/chebi.owl#Kojic_acid"/>
+        <hasIngredient rdf:resource="ftp://ftp.ebi.ac.uk/pub/databases/chebi/ontology/chebi.owl#Linoleic_acid"/>
+        <hasIngredient rdf:resource="ftp://ftp.ebi.ac.uk/pub/databases/chebi/ontology/chebi.owl#Mequinol"/>
+        <hasIngredient rdf:resource="ftp://ftp.ebi.ac.uk/pub/databases/chebi/ontology/chebi.owl#Niacinamide"/>
+        <treats rdf:resource="ftp://ftp.ebi.ac.uk/pub/databases/chebi/ontology/chebi.owl#Acne_scars"/>
+        <treats rdf:resource="ftp://ftp.ebi.ac.uk/pub/databases/chebi/ontology/chebi.owl#Sun_spot"/>
+        <obo2:Definition>Brightening serum is a serum formula that has a high concentration of active ingredients with the aim of inhibiting the production of melanin that causes dark spots, acne scars, and hyperpigmentation. In other words, brigtening serum is a type of serum used to brighten and fade black spots on porters.</obo2:Definition>
+    </owl:NamedIndividual>
+    
+
+
+    <!-- ftp://ftp.ebi.ac.uk/pub/databases/chebi/ontology/chebi.owl#Burns -->
+
+    <owl:NamedIndividual rdf:about="ftp://ftp.ebi.ac.uk/pub/databases/chebi/ontology/chebi.owl#Burns">
+        <rdf:type rdf:resource="ftp://ftp.ebi.ac.uk/pub/databases/chebi/ontology/chebi.owl#Skin_injuries"/>
+    </owl:NamedIndividual>
+    
+
+
+    <!-- ftp://ftp.ebi.ac.uk/pub/databases/chebi/ontology/chebi.owl#Day_cream -->
+
+    <owl:NamedIndividual rdf:about="ftp://ftp.ebi.ac.uk/pub/databases/chebi/ontology/chebi.owl#Day_cream">
+        <rdf:type rdf:resource="ftp://ftp.ebi.ac.uk/pub/databases/chebi/ontology/chebi.owl#Cream"/>
+        <hasIngredient rdf:resource="ftp://ftp.ebi.ac.uk/pub/databases/chebi/ontology/chebi.owl#Ascorbic_acid"/>
+        <hasIngredient rdf:resource="ftp://ftp.ebi.ac.uk/pub/databases/chebi/ontology/chebi.owl#Glycyrrhetinic_acid"/>
+        <hasIngredient rdf:resource="ftp://ftp.ebi.ac.uk/pub/databases/chebi/ontology/chebi.owl#Linoleic_acid"/>
+        <treats rdf:resource="ftp://ftp.ebi.ac.uk/pub/databases/chebi/ontology/chebi.owl#Post_Inflammatory_Erythema"/>
+        <treats rdf:resource="ftp://ftp.ebi.ac.uk/pub/databases/chebi/ontology/chebi.owl#Post_Inflammatory_Hyperpigmentation"/>
+        <treats rdf:resource="ftp://ftp.ebi.ac.uk/pub/databases/chebi/ontology/chebi.owl#Sun_spot"/>
+        <obo2:Definition>Day cream aims to treat and protect the skin from the sun that results in premature aging. Thus, the possibility of the appearance of skin problems can be minimized.</obo2:Definition>
+    </owl:NamedIndividual>
+    
+
+
+    <!-- ftp://ftp.ebi.ac.uk/pub/databases/chebi/ontology/chebi.owl#Eczema -->
+
+    <owl:NamedIndividual rdf:about="ftp://ftp.ebi.ac.uk/pub/databases/chebi/ontology/chebi.owl#Eczema">
+        <rdf:type rdf:resource="ftp://ftp.ebi.ac.uk/pub/databases/chebi/ontology/chebi.owl#Atopic_dermatitis"/>
+        <obo2:Definition>Eczema is a skin condition in which an inflammatory reaction occurs on the skin, which causes irritation or burning of the skin. Eczema that is commonly experienced by sufferers is eczema, a type of atopic dermatitis or atopic eczema. Eczema can affect babies, children and adults</obo2:Definition>
+    </owl:NamedIndividual>
+    
+
+
+    <!-- ftp://ftp.ebi.ac.uk/pub/databases/chebi/ontology/chebi.owl#Exfoliating_Serum -->
+
+    <owl:NamedIndividual rdf:about="ftp://ftp.ebi.ac.uk/pub/databases/chebi/ontology/chebi.owl#Exfoliating_Serum">
+        <rdf:type rdf:resource="ftp://ftp.ebi.ac.uk/pub/databases/chebi/ontology/chebi.owl#Serum"/>
+        <hasIngredient rdf:resource="ftp://ftp.ebi.ac.uk/pub/databases/chebi/ontology/chebi.owl#Liquiritin"/>
+        <hasIngredient rdf:resource="ftp://ftp.ebi.ac.uk/pub/databases/chebi/ontology/chebi.owl#Thioctic_acid"/>
+        <treats rdf:resource="ftp://ftp.ebi.ac.uk/pub/databases/chebi/ontology/chebi.owl#Post_Inflammatory_Hyperpigmentation"/>
+        <obo2:Definition>Exfoliation is a process of removing the outermost dead skin cells. The goal is to maintain the cleanliness of the facial skin so that it does not dull</obo2:Definition>
+    </owl:NamedIndividual>
+    
+
+
+    <!-- ftp://ftp.ebi.ac.uk/pub/databases/chebi/ontology/chebi.owl#Exfoliating_toner -->
+
+    <owl:NamedIndividual rdf:about="ftp://ftp.ebi.ac.uk/pub/databases/chebi/ontology/chebi.owl#Exfoliating_toner">
+        <rdf:type rdf:resource="ftp://ftp.ebi.ac.uk/pub/databases/chebi/ontology/chebi.owl#Toner"/>
+        <hasIngredient rdf:resource="ftp://ftp.ebi.ac.uk/pub/databases/chebi/ontology/chebi.owl#Alpha_hidroxy_acid"/>
+        <hasIngredient rdf:resource="ftp://ftp.ebi.ac.uk/pub/databases/chebi/ontology/chebi.owl#Glycolic_acid"/>
+        <hasIngredient rdf:resource="ftp://ftp.ebi.ac.uk/pub/databases/chebi/ontology/chebi.owl#Lactic_acid"/>
+        <hasIngredient rdf:resource="ftp://ftp.ebi.ac.uk/pub/databases/chebi/ontology/chebi.owl#Liquiritin"/>
+        <hasIngredient rdf:resource="ftp://ftp.ebi.ac.uk/pub/databases/chebi/ontology/chebi.owl#Salicylic_acid"/>
+        <treats rdf:resource="ftp://ftp.ebi.ac.uk/pub/databases/chebi/ontology/chebi.owl#Post_Inflammatory_Erythema"/>
+        <treats rdf:resource="ftp://ftp.ebi.ac.uk/pub/databases/chebi/ontology/chebi.owl#Post_Inflammatory_Hyperpigmentation"/>
+        <obo2:Definition>Exfoliating toner is a toner with the main function of exfoliating by removing dead skin cells and peeling off the outermost layer of skin. This type of toner will clean the rest of the dirt from the previous step as well as the rest of the makeup from the face.</obo2:Definition>
+    </owl:NamedIndividual>
+    
+
+
+    <!-- ftp://ftp.ebi.ac.uk/pub/databases/chebi/ontology/chebi.owl#Exfoliation -->
+
+    <owl:NamedIndividual rdf:about="ftp://ftp.ebi.ac.uk/pub/databases/chebi/ontology/chebi.owl#Exfoliation">
+        <rdf:type rdf:resource="ftp://ftp.ebi.ac.uk/pub/databases/chebi/ontology/chebi.owl#Function"/>
+        <obo2:Definition>Exfoliation is the process of removing dead skin cells on the top layer</obo2:Definition>
+    </owl:NamedIndividual>
+    
+
+
+    <!-- ftp://ftp.ebi.ac.uk/pub/databases/chebi/ontology/chebi.owl#Glycolic_acid -->
+
+    <owl:NamedIndividual rdf:about="ftp://ftp.ebi.ac.uk/pub/databases/chebi/ontology/chebi.owl#Glycolic_acid">
+        <rdf:type rdf:resource="ftp://ftp.ebi.ac.uk/pub/databases/chebi/ontology/chebi.owl#Allowed"/>
+        <rdf:type rdf:resource="ftp://ftp.ebi.ac.uk/pub/databases/chebi/ontology/chebi.owl#Skin_Lightening_Agents"/>
+        <rdf:type>
+            <owl:Restriction>
+                <owl:onProperty rdf:resource="ftp://ftp.ebi.ac.uk/pub/databases/chebi/ontology/chebi.owl#hasRole"/>
+                <owl:someValuesFrom rdf:resource="ftp://ftp.ebi.ac.uk/pub/databases/chebi/ontology/chebi.owl#Function"/>
+            </owl:Restriction>
+        </rdf:type>
+        <rdf:type>
+            <owl:Restriction>
+                <owl:onProperty rdf:resource="ftp://ftp.ebi.ac.uk/pub/databases/chebi/ontology/chebi.owl#isGoodFor"/>
+                <owl:someValuesFrom rdf:resource="ftp://ftp.ebi.ac.uk/pub/databases/chebi/ontology/chebi.owl#Associated_Conditions"/>
+            </owl:Restriction>
+        </rdf:type>
+        <isBaseOf rdf:resource="ftp://ftp.ebi.ac.uk/pub/databases/chebi/ontology/chebi.owl#Exfoliating_toner"/>
+        <chemicalFormula rdf:datatype="http://www.w3.org/2001/XMLSchema#string">C2H4O3</chemicalFormula>
+        <Chemical_Formula rdf:datatype="http://www.w3.org/2001/XMLSchema#string">C2H4O3</Chemical_Formula>
+        <obo2:Definition>A 2-hydroxy monocarboxylic acid that is acetic acid where the methyl group has been hydroxylated.</obo2:Definition>
+        <obo2:InChI>1S/C2H4O3/c3-1-2(4)5/h3H,1H2,(H,4,5)</obo2:InChI>
+        <obo2:InChIKey>AEMRFAOFKBGASW-UHFFFAOYSA-N</obo2:InChIKey>
+        <obo2:SMILES>OCC(O)=O</obo2:SMILES>
+        <obo2:Synonym>Glycollic acid
+HOCH2COOH</obo2:Synonym>
+    </owl:NamedIndividual>
+    
+
+
+    <!-- ftp://ftp.ebi.ac.uk/pub/databases/chebi/ontology/chebi.owl#Glycyrrhetinic_acid -->
+
+    <owl:NamedIndividual rdf:about="ftp://ftp.ebi.ac.uk/pub/databases/chebi/ontology/chebi.owl#Glycyrrhetinic_acid">
+        <rdf:type rdf:resource="ftp://ftp.ebi.ac.uk/pub/databases/chebi/ontology/chebi.owl#Allowed"/>
+        <rdf:type rdf:resource="ftp://ftp.ebi.ac.uk/pub/databases/chebi/ontology/chebi.owl#Skin_Lightening_Agents"/>
+        <rdf:type>
+            <owl:Restriction>
+                <owl:onProperty rdf:resource="ftp://ftp.ebi.ac.uk/pub/databases/chebi/ontology/chebi.owl#isGoodFor"/>
+                <owl:someValuesFrom rdf:resource="ftp://ftp.ebi.ac.uk/pub/databases/chebi/ontology/chebi.owl#Associated_Conditions"/>
+            </owl:Restriction>
+        </rdf:type>
+        <hasRole rdf:resource="ftp://ftp.ebi.ac.uk/pub/databases/chebi/ontology/chebi.owl#Protect_From_Free_Radical"/>
+        <isBaseOf rdf:resource="ftp://ftp.ebi.ac.uk/pub/databases/chebi/ontology/chebi.owl#Day_cream"/>
+        <chemicalFormula rdf:datatype="http://www.w3.org/2001/XMLSchema#string">C30H46O4</chemicalFormula>
+        <Chemical_Formula rdf:datatype="http://www.w3.org/2001/XMLSchema#string">C30H46O4</Chemical_Formula>
+        <obo2:Definition>A pentacyclic triterpenoid that is olean-12-ene substituted by a hydroxy group at position 3, an oxo group at position 11 and a carboxy group at position 30.</obo2:Definition>
+        <obo2:InChI>1S/C30H46O4/c1-25(2)21-8-11-30(7)23(28(21,5)10-9-22(25)32)20(31)16-18-19-17-27(4,24(33)34)13-12-26(19,3)14-15-29(18,30)6/h16,19,21-23,32H,8-15,17H2,1-7H3,(H,33,34)/t19-,21-,22-,23+,26+,27-,28-,29+,30+/m0/s1</obo2:InChI>
+        <obo2:InChIKey>MPDGHEJMBKOTSU-YKLVYJNSSA-N</obo2:InChIKey>
+        <obo2:SMILES>[H][C@@]12C[C@](C)(CC[C@]1(C)CC[C@]1(C)C2=CC(=O)[C@]2([H])[C@@]3(C)CC[C@H](O)C(C)(C)[C@]3([H])CC[C@@]12C)C(O)=O</obo2:SMILES>
+        <obo2:Synonym>Enoxolone</obo2:Synonym>
+    </owl:NamedIndividual>
+    
+
+
+    <!-- ftp://ftp.ebi.ac.uk/pub/databases/chebi/ontology/chebi.owl#Hemangioma -->
+
+    <owl:NamedIndividual rdf:about="ftp://ftp.ebi.ac.uk/pub/databases/chebi/ontology/chebi.owl#Hemangioma">
+        <rdf:type rdf:resource="ftp://ftp.ebi.ac.uk/pub/databases/chebi/ontology/chebi.owl#Vascular"/>
+        <obo2:Definition>Hemangiomas or also known as strawberry marks are birthmarks that appear on the skin due to the presence of more or abnormal blood vessels in the form of elastic lumps and bright red in color. This disease is a type of vascular tumor.</obo2:Definition>
+    </owl:NamedIndividual>
+    
+
+
+    <!-- ftp://ftp.ebi.ac.uk/pub/databases/chebi/ontology/chebi.owl#Hydrating_moisturizer -->
+
+    <owl:NamedIndividual rdf:about="ftp://ftp.ebi.ac.uk/pub/databases/chebi/ontology/chebi.owl#Hydrating_moisturizer">
+        <rdf:type rdf:resource="ftp://ftp.ebi.ac.uk/pub/databases/chebi/ontology/chebi.owl#Moisturizer"/>
+        <rdf:type rdf:resource="ftp://ftp.ebi.ac.uk/pub/databases/chebi/ontology/chebi.owl#Skincare"/>
+        <hasIngredient rdf:resource="ftp://ftp.ebi.ac.uk/pub/databases/chebi/ontology/chebi.owl#Arbutin"/>
+        <hasIngredient rdf:resource="ftp://ftp.ebi.ac.uk/pub/databases/chebi/ontology/chebi.owl#Azelaic_acid"/>
+        <treats rdf:resource="ftp://ftp.ebi.ac.uk/pub/databases/chebi/ontology/chebi.owl#Albinism"/>
+        <treats rdf:resource="ftp://ftp.ebi.ac.uk/pub/databases/chebi/ontology/chebi.owl#Eczema"/>
+        <treats rdf:resource="ftp://ftp.ebi.ac.uk/pub/databases/chebi/ontology/chebi.owl#Post_Inflammatory_Erythema"/>
+        <treats rdf:resource="ftp://ftp.ebi.ac.uk/pub/databases/chebi/ontology/chebi.owl#Psoriasis"/>
+        <obo2:Definition>Hydrating products are humectant moisturizers that can absorb water to the skin. Therefore, the main function of hydrating products is to increase water content or water content in the skin.</obo2:Definition>
+    </owl:NamedIndividual>
+    
+
+
+    <!-- ftp://ftp.ebi.ac.uk/pub/databases/chebi/ontology/chebi.owl#Hydroquinone -->
+
+    <owl:NamedIndividual rdf:about="ftp://ftp.ebi.ac.uk/pub/databases/chebi/ontology/chebi.owl#Hydroquinone">
+        <rdf:type rdf:resource="ftp://ftp.ebi.ac.uk/pub/databases/chebi/ontology/chebi.owl#Not_Allowed"/>
+        <rdf:type rdf:resource="ftp://ftp.ebi.ac.uk/pub/databases/chebi/ontology/chebi.owl#Skin_Lightening_Agents"/>
+        <hasRole rdf:resource="ftp://ftp.ebi.ac.uk/pub/databases/chebi/ontology/chebi.owl#Inhibit_Tyrosinase"/>
+        <chemicalFormula rdf:datatype="http://www.w3.org/2001/XMLSchema#string">C6H6O2</chemicalFormula>
+        <Chemical_Formula rdf:datatype="http://www.w3.org/2001/XMLSchema#string">C6H6O2</Chemical_Formula>
+        <obo2:Definition>A benzenediol comprising benzene core carrying two hydroxy substituents para to each other.</obo2:Definition>
+        <obo2:InChI>1S/C6H6O2/c7-5-1-2-6(8)4-3-5/h1-4,7-8H</obo2:InChI>
+        <obo2:InChIKey>QIGBRXMKCJKVMJ-UHFFFAOYSA-N</obo2:InChIKey>
+        <obo2:SMILES>Oc1ccc(O)cc1</obo2:SMILES>
+        <obo2:Synonym>p-hydroxyphenol</obo2:Synonym>
+    </owl:NamedIndividual>
+    
+
+
+    <!-- ftp://ftp.ebi.ac.uk/pub/databases/chebi/ontology/chebi.owl#Infection -->
+
+    <owl:NamedIndividual rdf:about="ftp://ftp.ebi.ac.uk/pub/databases/chebi/ontology/chebi.owl#Infection">
+        <rdf:type rdf:resource="ftp://ftp.ebi.ac.uk/pub/databases/chebi/ontology/chebi.owl#Skin_injuries"/>
+        <obo2:Definition>infection, inflammation, transmission.</obo2:Definition>
+    </owl:NamedIndividual>
+    
+
+
+    <!-- ftp://ftp.ebi.ac.uk/pub/databases/chebi/ontology/chebi.owl#Inhibit_Transfer_Melanosomes -->
+
+    <owl:NamedIndividual rdf:about="ftp://ftp.ebi.ac.uk/pub/databases/chebi/ontology/chebi.owl#Inhibit_Transfer_Melanosomes">
+        <rdf:type rdf:resource="ftp://ftp.ebi.ac.uk/pub/databases/chebi/ontology/chebi.owl#Function"/>
+        <obo2:Definition>Normal skin color components are affected
+by melanin, hemoglobin (oxyhemoglobin and
+deoxyhemoglobin) and carotene</obo2:Definition>
+    </owl:NamedIndividual>
+    
+
+
+    <!-- ftp://ftp.ebi.ac.uk/pub/databases/chebi/ontology/chebi.owl#Inhibit_Tyrosinase -->
+
+    <owl:NamedIndividual rdf:about="ftp://ftp.ebi.ac.uk/pub/databases/chebi/ontology/chebi.owl#Inhibit_Tyrosinase">
+        <rdf:type rdf:resource="ftp://ftp.ebi.ac.uk/pub/databases/chebi/ontology/chebi.owl#Function"/>
+        <obo2:Definition>Tyrosinase is an enzyme that plays an important role in the synthesis of melanin. ... Melanin is produced by melanocytes through the process of melanogenesis, functions to determine the color of skin, hair and eyes and plays a major role in human skin homeostasis.</obo2:Definition>
+    </owl:NamedIndividual>
+    
+
+
+    <!-- ftp://ftp.ebi.ac.uk/pub/databases/chebi/ontology/chebi.owl#Kojic_acid -->
+
+    <owl:NamedIndividual rdf:about="ftp://ftp.ebi.ac.uk/pub/databases/chebi/ontology/chebi.owl#Kojic_acid">
+        <rdf:type rdf:resource="ftp://ftp.ebi.ac.uk/pub/databases/chebi/ontology/chebi.owl#Allowed"/>
+        <rdf:type rdf:resource="ftp://ftp.ebi.ac.uk/pub/databases/chebi/ontology/chebi.owl#Skin_Lightening_Agents"/>
+        <rdf:type>
+            <owl:Restriction>
+                <owl:onProperty rdf:resource="ftp://ftp.ebi.ac.uk/pub/databases/chebi/ontology/chebi.owl#isGoodFor"/>
+                <owl:someValuesFrom rdf:resource="ftp://ftp.ebi.ac.uk/pub/databases/chebi/ontology/chebi.owl#Associated_Conditions"/>
+            </owl:Restriction>
+        </rdf:type>
+        <hasRole rdf:resource="ftp://ftp.ebi.ac.uk/pub/databases/chebi/ontology/chebi.owl#Inhibit_Tyrosinase"/>
+        <isBaseOf rdf:resource="ftp://ftp.ebi.ac.uk/pub/databases/chebi/ontology/chebi.owl#Brightening_Serum"/>
+        <chemicalFormula rdf:datatype="http://www.w3.org/2001/XMLSchema#string">C6H6O4</chemicalFormula>
+        <Chemical_Formula rdf:datatype="http://www.w3.org/2001/XMLSchema#string">C6H6O4</Chemical_Formula>
+        <obo2:Definition>A pyranone that is 4H-pyran substituted by a hydroxy group at position 5, a hydroxymethyl group at position 2 and an oxo group at position 4. It has been isolated from the fungus Aspergillus oryzae</obo2:Definition>
+        <obo2:InChI>1S/C6H6O4/c7-2-4-1-5(8)6(9)3-10-4/h1,3,7,9H,2H2</obo2:InChI>
+        <obo2:InChIKey>BEJNERDRQOWKJM-UHFFFAOYSA-N</obo2:InChIKey>
+        <obo2:SMILES>OCc1cc(=O)c(O)co1</obo2:SMILES>
+        <obo2:Synonym>5-Hydroxy-2-(hydroxymethyl)-4-pyrone</obo2:Synonym>
+    </owl:NamedIndividual>
+    
+
+
+    <!-- ftp://ftp.ebi.ac.uk/pub/databases/chebi/ontology/chebi.owl#Lactic_acid -->
+
+    <owl:NamedIndividual rdf:about="ftp://ftp.ebi.ac.uk/pub/databases/chebi/ontology/chebi.owl#Lactic_acid">
+        <rdf:type rdf:resource="ftp://ftp.ebi.ac.uk/pub/databases/chebi/ontology/chebi.owl#Allowed"/>
+        <rdf:type rdf:resource="ftp://ftp.ebi.ac.uk/pub/databases/chebi/ontology/chebi.owl#Skin_Lightening_Agents"/>
+        <rdf:type>
+            <owl:Restriction>
+                <owl:onProperty rdf:resource="ftp://ftp.ebi.ac.uk/pub/databases/chebi/ontology/chebi.owl#hasRole"/>
+                <owl:someValuesFrom rdf:resource="ftp://ftp.ebi.ac.uk/pub/databases/chebi/ontology/chebi.owl#Function"/>
+            </owl:Restriction>
+        </rdf:type>
+        <rdf:type>
+            <owl:Restriction>
+                <owl:onProperty rdf:resource="ftp://ftp.ebi.ac.uk/pub/databases/chebi/ontology/chebi.owl#isGoodFor"/>
+                <owl:someValuesFrom rdf:resource="ftp://ftp.ebi.ac.uk/pub/databases/chebi/ontology/chebi.owl#Associated_Conditions"/>
+            </owl:Restriction>
+        </rdf:type>
+        <isBaseOf rdf:resource="ftp://ftp.ebi.ac.uk/pub/databases/chebi/ontology/chebi.owl#Exfoliating_toner"/>
+        <chemicalFormula rdf:datatype="http://www.w3.org/2001/XMLSchema#string">C3H6O3</chemicalFormula>
+        <Chemical_Formula rdf:datatype="http://www.w3.org/2001/XMLSchema#string">C3H6O3</Chemical_Formula>
+        <obo2:Definition>An optically active form of lactic acid having (S)-configuration.</obo2:Definition>
+        <obo2:InChI>1S/C3H6O3/c1-2(4)3(5)6/h2,4H,1H3,(H,5,6)/t2-/m0/s1</obo2:InChI>
+        <obo2:InChIKey>JVTAAEKCZFNVCJ-REOHCLBHSA-N</obo2:InChIKey>
+        <obo2:SMILES>C[C@H](O)C(O)=O</obo2:SMILES>
+        <obo2:Synonym></obo2:Synonym>
+    </owl:NamedIndividual>
+    
+
+
+    <!-- ftp://ftp.ebi.ac.uk/pub/databases/chebi/ontology/chebi.owl#Linoleic_acid -->
+
+    <owl:NamedIndividual rdf:about="ftp://ftp.ebi.ac.uk/pub/databases/chebi/ontology/chebi.owl#Linoleic_acid">
+        <rdf:type rdf:resource="ftp://ftp.ebi.ac.uk/pub/databases/chebi/ontology/chebi.owl#Allowed"/>
+        <hasRole rdf:resource="ftp://ftp.ebi.ac.uk/pub/databases/chebi/ontology/chebi.owl#Inhibit_Transfer_Melanosomes"/>
+        <isBaseOf rdf:resource="ftp://ftp.ebi.ac.uk/pub/databases/chebi/ontology/chebi.owl#Brightening_Serum"/>
+        <isBaseOf rdf:resource="ftp://ftp.ebi.ac.uk/pub/databases/chebi/ontology/chebi.owl#Day_cream"/>
+        <isGoodFor rdf:resource="ftp://ftp.ebi.ac.uk/pub/databases/chebi/ontology/chebi.owl#Melasma"/>
+        <chemicalFormula rdf:datatype="http://www.w3.org/2001/XMLSchema#string">C18H32O2</chemicalFormula>
+        <Chemical_Formula rdf:datatype="http://www.w3.org/2001/XMLSchema#string">C18H32O2</Chemical_Formula>
+        <obo2:Definition>An octadecadienoic acid in which the two double bonds are at positions 9 and 12 and have Z (cis) stereochemistry.</obo2:Definition>
+        <obo2:InChI>1S/C18H32O2/c1-2-3-4-5-6-7-8-9-10-11-12-13-14-15-16-17-18(19)20/h6-7,9-10H,2-5,8,11-17H2,1H3,(H,19,20)/b7-6-,10-9-</obo2:InChI>
+        <obo2:InChIKey>OYHQOLUKZRVURQ-HZJYTTRNSA-N</obo2:InChIKey>
+        <obo2:Synonym>LA
+Linoleic acid</obo2:Synonym>
+    </owl:NamedIndividual>
+    
+
+
+    <!-- ftp://ftp.ebi.ac.uk/pub/databases/chebi/ontology/chebi.owl#Liquiritin -->
+
+    <owl:NamedIndividual rdf:about="ftp://ftp.ebi.ac.uk/pub/databases/chebi/ontology/chebi.owl#Liquiritin">
+        <rdf:type rdf:resource="ftp://ftp.ebi.ac.uk/pub/databases/chebi/ontology/chebi.owl#Allowed"/>
+        <rdf:type rdf:resource="ftp://ftp.ebi.ac.uk/pub/databases/chebi/ontology/chebi.owl#Skin_Lightening_Agents"/>
+        <rdf:type>
+            <owl:Restriction>
+                <owl:onProperty rdf:resource="ftp://ftp.ebi.ac.uk/pub/databases/chebi/ontology/chebi.owl#isGoodFor"/>
+                <owl:someValuesFrom rdf:resource="ftp://ftp.ebi.ac.uk/pub/databases/chebi/ontology/chebi.owl#Associated_Conditions"/>
+            </owl:Restriction>
+        </rdf:type>
+        <hasRole rdf:resource="ftp://ftp.ebi.ac.uk/pub/databases/chebi/ontology/chebi.owl#Exfoliation"/>
+        <isBaseOf rdf:resource="ftp://ftp.ebi.ac.uk/pub/databases/chebi/ontology/chebi.owl#Exfoliating_Serum"/>
+        <isBaseOf rdf:resource="ftp://ftp.ebi.ac.uk/pub/databases/chebi/ontology/chebi.owl#Exfoliating_toner"/>
+        <chemicalFormula rdf:datatype="http://www.w3.org/2001/XMLSchema#string">C21H22O9</chemicalFormula>
+        <Chemical_Formula rdf:datatype="http://www.w3.org/2001/XMLSchema#string">C21H22O9</Chemical_Formula>
+        <obo2:Definition>A flavanone glycoside that is liquiritigenin attached to a β-D-glucopyranosyl residue at position 4&apos; via a glycosidic linkage</obo2:Definition>
+        <obo2:InChI>1S/C21H22O9/c22-9-17-18(25)19(26)20(27)21(30-17)28-12-4-1-10(2-5-12)15-8-14(24)13-6-3-11(23)7-16(13)29-15/h1-7,15,17-23,25-27H,8-9H2/t15-,17+,18+,19-,20+,21+/m0/s1</obo2:InChI>
+        <obo2:InChIKey>DEMKZLAVQYISIA-ZRWXNEIDSA-N</obo2:InChIKey>
+        <obo2:SMILES>OC[C@H]1O[C@@H](Oc2ccc(cc2)[C@@H]2CC(=O)c3ccc(O)cc3O2)[C@H](O)[C@@H](O)[C@@H]1O</obo2:SMILES>
+        <obo2:Synonym>likviritin</obo2:Synonym>
+    </owl:NamedIndividual>
+    
+
+
+    <!-- ftp://ftp.ebi.ac.uk/pub/databases/chebi/ontology/chebi.owl#Melasma -->
+
+    <owl:NamedIndividual rdf:about="ftp://ftp.ebi.ac.uk/pub/databases/chebi/ontology/chebi.owl#Melasma">
+        <rdf:type rdf:resource="ftp://ftp.ebi.ac.uk/pub/databases/chebi/ontology/chebi.owl#Dark_spot"/>
+    </owl:NamedIndividual>
+    
+
+
+    <!-- ftp://ftp.ebi.ac.uk/pub/databases/chebi/ontology/chebi.owl#Mequinol -->
+
+    <owl:NamedIndividual rdf:about="ftp://ftp.ebi.ac.uk/pub/databases/chebi/ontology/chebi.owl#Mequinol">
+        <rdf:type rdf:resource="ftp://ftp.ebi.ac.uk/pub/databases/chebi/ontology/chebi.owl#Allowed"/>
+        <rdf:type rdf:resource="ftp://ftp.ebi.ac.uk/pub/databases/chebi/ontology/chebi.owl#Skin_Lightening_Agents"/>
+        <rdf:type>
+            <owl:Restriction>
+                <owl:onProperty rdf:resource="ftp://ftp.ebi.ac.uk/pub/databases/chebi/ontology/chebi.owl#isGoodFor"/>
+                <owl:someValuesFrom rdf:resource="ftp://ftp.ebi.ac.uk/pub/databases/chebi/ontology/chebi.owl#Associated_Conditions"/>
+            </owl:Restriction>
+        </rdf:type>
+        <hasRole rdf:resource="ftp://ftp.ebi.ac.uk/pub/databases/chebi/ontology/chebi.owl#Inhibit_Tyrosinase"/>
+        <isBaseOf rdf:resource="ftp://ftp.ebi.ac.uk/pub/databases/chebi/ontology/chebi.owl#Brightening_Serum"/>
+        <chemicalFormula rdf:datatype="http://www.w3.org/2001/XMLSchema#string">C7H8O2</chemicalFormula>
+        <Chemical_Formula rdf:datatype="http://www.w3.org/2001/XMLSchema#string">C7H8O2</Chemical_Formula>
+        <obo2:Definition>A natural product found in Cordyceps sinensis.</obo2:Definition>
+        <obo2:InChI>1S/C7H8O2/c1-9-7-4-2-6(8)3-5-7/h2-5,8H,1H3</obo2:InChI>
+        <obo2:InChIKey>NWVVVBRKAWDGAB-UHFFFAOYSA-N</obo2:InChIKey>
+        <obo2:SMILES>COc1ccc(O)cc1</obo2:SMILES>
+        <obo2:Synonym>Mequinol</obo2:Synonym>
+    </owl:NamedIndividual>
+    
+
+
+    <!-- ftp://ftp.ebi.ac.uk/pub/databases/chebi/ontology/chebi.owl#Mercury -->
+
+    <owl:NamedIndividual rdf:about="ftp://ftp.ebi.ac.uk/pub/databases/chebi/ontology/chebi.owl#Mercury">
+        <rdf:type rdf:resource="ftp://ftp.ebi.ac.uk/pub/databases/chebi/ontology/chebi.owl#Not_Allowed"/>
+        <rdf:type rdf:resource="ftp://ftp.ebi.ac.uk/pub/databases/chebi/ontology/chebi.owl#Skin_Lightening_Agents"/>
+        <chemicalFormula rdf:datatype="http://www.w3.org/2001/XMLSchema#string">Hg</chemicalFormula>
+        <Chemical_Formula rdf:datatype="http://www.w3.org/2001/XMLSchema#string">Hg</Chemical_Formula>
+        <obo2:Definition>Elemental mercury of oxidation state zero.</obo2:Definition>
+        <obo2:InChI>1S/Hg</obo2:InChI>
+        <obo2:InChIKey>QSHDDOUJBYECFT-UHFFFAOYSA-N</obo2:InChIKey>
+        <obo2:SMILES>[Hg]</obo2:SMILES>
+        <obo2:Synonym>Mercury</obo2:Synonym>
+    </owl:NamedIndividual>
+    
+
+
+    <!-- ftp://ftp.ebi.ac.uk/pub/databases/chebi/ontology/chebi.owl#Moles -->
+
+    <owl:NamedIndividual rdf:about="ftp://ftp.ebi.ac.uk/pub/databases/chebi/ontology/chebi.owl#Moles">
+        <rdf:type rdf:resource="ftp://ftp.ebi.ac.uk/pub/databases/chebi/ontology/chebi.owl#Pigmented"/>
+        <obo2:Definition>mo.les [n] damage; disturbance; damage</obo2:Definition>
+    </owl:NamedIndividual>
+    
+
+
+    <!-- ftp://ftp.ebi.ac.uk/pub/databases/chebi/ontology/chebi.owl#Mongolian_spot -->
+
+    <owl:NamedIndividual rdf:about="ftp://ftp.ebi.ac.uk/pub/databases/chebi/ontology/chebi.owl#Mongolian_spot">
+        <rdf:type rdf:resource="ftp://ftp.ebi.ac.uk/pub/databases/chebi/ontology/chebi.owl#Pigmented"/>
+        <obo2:Definition>Mongolian spots are a term to describe the condition of the appearance of bluish patches on the skin of newborns. Medically, this birth spot is called congenital dermal melanocytosis. These patches that appear on the surface of the baby&apos;s skin are a type of birthmark.</obo2:Definition>
+    </owl:NamedIndividual>
+    
+
+
+    <!-- ftp://ftp.ebi.ac.uk/pub/databases/chebi/ontology/chebi.owl#Nevus_of_ota -->
+
+    <owl:NamedIndividual rdf:about="ftp://ftp.ebi.ac.uk/pub/databases/chebi/ontology/chebi.owl#Nevus_of_ota">
+        <rdf:type rdf:resource="ftp://ftp.ebi.ac.uk/pub/databases/chebi/ontology/chebi.owl#Pigmented"/>
+        <obo2:Definition>Dark patches on the eye area are also called Nevus of Ota. This condition is a type of hyperpigmentation (increased color intensity compared to the surrounding skin).</obo2:Definition>
+    </owl:NamedIndividual>
+    
+
+
+    <!-- ftp://ftp.ebi.ac.uk/pub/databases/chebi/ontology/chebi.owl#Niacinamide -->
+
+    <owl:NamedIndividual rdf:about="ftp://ftp.ebi.ac.uk/pub/databases/chebi/ontology/chebi.owl#Niacinamide">
+        <rdf:type rdf:resource="ftp://ftp.ebi.ac.uk/pub/databases/chebi/ontology/chebi.owl#Allowed"/>
+        <hasRole rdf:resource="ftp://ftp.ebi.ac.uk/pub/databases/chebi/ontology/chebi.owl#Anti_inflammatory"/>
+        <isBaseOf rdf:resource="ftp://ftp.ebi.ac.uk/pub/databases/chebi/ontology/chebi.owl#Brightening_Serum"/>
+        <isBaseOf rdf:resource="ftp://ftp.ebi.ac.uk/pub/databases/chebi/ontology/chebi.owl#Night_cream"/>
+        <isGoodFor rdf:resource="ftp://ftp.ebi.ac.uk/pub/databases/chebi/ontology/chebi.owl#Post_Inflammatory_Hyperpigmentation"/>
+        <chemicalFormula>C6H6N2O</chemicalFormula>
+        <Chemical_Formula>C6H6N2O</Chemical_Formula>
+        <obo2:Definition>A pyridinecarboxamide that is pyridine in which the hydrogen at position 3 is replaced by a carboxamide group.</obo2:Definition>
+        <obo2:InChI>1S/C6H6N2O/c7-6(9)5-2-1-3-8-4-5/h1-4H,(H2,7,9)</obo2:InChI>
+        <obo2:InChIKey>DFPAKSUCGFBDDF-UHFFFAOYSA-N</obo2:InChIKey>
+        <obo2:SMILES>NC(=O)c1cccnc1</obo2:SMILES>
+        <obo2:Synonym>nicotylamide</obo2:Synonym>
+    </owl:NamedIndividual>
+    
+
+
+    <!-- ftp://ftp.ebi.ac.uk/pub/databases/chebi/ontology/chebi.owl#Night_cream -->
+
+    <owl:NamedIndividual rdf:about="ftp://ftp.ebi.ac.uk/pub/databases/chebi/ontology/chebi.owl#Night_cream">
+        <rdf:type rdf:resource="ftp://ftp.ebi.ac.uk/pub/databases/chebi/ontology/chebi.owl#Cream"/>
+        <rdf:type rdf:resource="ftp://ftp.ebi.ac.uk/pub/databases/chebi/ontology/chebi.owl#Skincare"/>
+        <hasIngredient rdf:resource="ftp://ftp.ebi.ac.uk/pub/databases/chebi/ontology/chebi.owl#Arbutin"/>
+        <hasIngredient rdf:resource="ftp://ftp.ebi.ac.uk/pub/databases/chebi/ontology/chebi.owl#Niacinamide"/>
+        <treats rdf:resource="ftp://ftp.ebi.ac.uk/pub/databases/chebi/ontology/chebi.owl#Acne_scars"/>
+        <treats rdf:resource="ftp://ftp.ebi.ac.uk/pub/databases/chebi/ontology/chebi.owl#Post_Inflammatory_Hyperpigmentation"/>
+        <obo2:Definition>Night cream is a moisturizing cream that is specifically used at night before going to bed. Serves to help optimize the skin regeneration process at night, night cream contains many antiaging formulas and vitamin A. Compared to daytime moisturizing cream, night cream tends to be thicker.</obo2:Definition>
+    </owl:NamedIndividual>
+    
+
+
+    <!-- ftp://ftp.ebi.ac.uk/pub/databases/chebi/ontology/chebi.owl#Post_Inflammatory_Erythema -->
+
+    <owl:NamedIndividual rdf:about="ftp://ftp.ebi.ac.uk/pub/databases/chebi/ontology/chebi.owl#Post_Inflammatory_Erythema">
+        <rdf:type rdf:resource="ftp://ftp.ebi.ac.uk/pub/databases/chebi/ontology/chebi.owl#Post_Inflammatory"/>
+        <obo2:Definition>Post-inflammatory erythema (PIE) is an acne scar with red, pink, or purple patches. PIE occurs in those with lighter skin tones such as skin types I, II, and III on the Fitzpatrick skin scale</obo2:Definition>
+    </owl:NamedIndividual>
+    
+
+
+    <!-- ftp://ftp.ebi.ac.uk/pub/databases/chebi/ontology/chebi.owl#Post_Inflammatory_Hyperpigmentation -->
+
+    <owl:NamedIndividual rdf:about="ftp://ftp.ebi.ac.uk/pub/databases/chebi/ontology/chebi.owl#Post_Inflammatory_Hyperpigmentation">
+        <rdf:type rdf:resource="ftp://ftp.ebi.ac.uk/pub/databases/chebi/ontology/chebi.owl#Post_Inflammatory"/>
+        <obo2:Definition>post-inflammatory hyperpigmentation (PIH) is an acne scar that leaves brown and black spots. This type of acne scars occur in those who have darker skin such as skin types IV, V, and VI</obo2:Definition>
+    </owl:NamedIndividual>
+    
+
+
+    <!-- ftp://ftp.ebi.ac.uk/pub/databases/chebi/ontology/chebi.owl#Protect_From_Free_Radical -->
+
+    <owl:NamedIndividual rdf:about="ftp://ftp.ebi.ac.uk/pub/databases/chebi/ontology/chebi.owl#Protect_From_Free_Radical">
+        <rdf:type rdf:resource="ftp://ftp.ebi.ac.uk/pub/databases/chebi/ontology/chebi.owl#Function"/>
+        <obo2:Definition>Dari perlindungan dari radikal bebas</obo2:Definition>
+    </owl:NamedIndividual>
+    
+
+
+    <!-- ftp://ftp.ebi.ac.uk/pub/databases/chebi/ontology/chebi.owl#Psoriasis -->
+
+    <owl:NamedIndividual rdf:about="ftp://ftp.ebi.ac.uk/pub/databases/chebi/ontology/chebi.owl#Psoriasis">
+        <rdf:type rdf:resource="ftp://ftp.ebi.ac.uk/pub/databases/chebi/ontology/chebi.owl#Atopic_dermatitis"/>
+        <obo2:Definition>Psoriasis is an autoimmune disease that attacks the skin of the sufferer. Psoriasis generally occurs over a long period of time.</obo2:Definition>
+        <obo2:Synonym>Coal tar</obo2:Synonym>
+    </owl:NamedIndividual>
+    
+
+
+    <!-- ftp://ftp.ebi.ac.uk/pub/databases/chebi/ontology/chebi.owl#Salicylic_acid -->
+
+    <owl:NamedIndividual rdf:about="ftp://ftp.ebi.ac.uk/pub/databases/chebi/ontology/chebi.owl#Salicylic_acid">
+        <rdf:type rdf:resource="ftp://ftp.ebi.ac.uk/pub/databases/chebi/ontology/chebi.owl#Allowed"/>
+        <rdf:type rdf:resource="ftp://ftp.ebi.ac.uk/pub/databases/chebi/ontology/chebi.owl#Skin_Lightening_Agents"/>
+        <rdf:type>
+            <owl:Restriction>
+                <owl:onProperty rdf:resource="ftp://ftp.ebi.ac.uk/pub/databases/chebi/ontology/chebi.owl#isGoodFor"/>
+                <owl:someValuesFrom rdf:resource="ftp://ftp.ebi.ac.uk/pub/databases/chebi/ontology/chebi.owl#Associated_Conditions"/>
+            </owl:Restriction>
+        </rdf:type>
+        <hasRole rdf:resource="ftp://ftp.ebi.ac.uk/pub/databases/chebi/ontology/chebi.owl#Exfoliation"/>
+        <isBaseOf rdf:resource="ftp://ftp.ebi.ac.uk/pub/databases/chebi/ontology/chebi.owl#Exfoliating_toner"/>
+        <chemicalFormula rdf:datatype="http://www.w3.org/2001/XMLSchema#string">C7H6O3</chemicalFormula>
+        <Chemical_Formula rdf:datatype="http://www.w3.org/2001/XMLSchema#string">C7H6O3</Chemical_Formula>
+        <obo2:Definition>A monohydroxybenzoic acid that is benzoic acid with a hydroxy group at the ortho position. It is obtained from the bark of the white willow and wintergreen leaves.</obo2:Definition>
+        <obo2:InChI>1S/C7H6O3/c8-6-4-2-1-3-5(6)7(9)10/h1-4,8H,(H,9,10)</obo2:InChI>
+        <obo2:InChIKey>YGSDEFSMJLZEOE-UHFFFAOYSA-N</obo2:InChIKey>
+        <obo2:SMILES>OC(=O)c1ccccc1O</obo2:SMILES>
+        <obo2:Synonym>Salicylic acid</obo2:Synonym>
+    </owl:NamedIndividual>
+    
+
+
+    <!-- ftp://ftp.ebi.ac.uk/pub/databases/chebi/ontology/chebi.owl#Sun_spot -->
+
+    <owl:NamedIndividual rdf:about="ftp://ftp.ebi.ac.uk/pub/databases/chebi/ontology/chebi.owl#Sun_spot">
+        <rdf:type rdf:resource="ftp://ftp.ebi.ac.uk/pub/databases/chebi/ontology/chebi.owl#Dark_spot"/>
+    </owl:NamedIndividual>
+    
+
+
+    <!-- ftp://ftp.ebi.ac.uk/pub/databases/chebi/ontology/chebi.owl#Thioctic_acid -->
+
+    <owl:NamedIndividual rdf:about="ftp://ftp.ebi.ac.uk/pub/databases/chebi/ontology/chebi.owl#Thioctic_acid">
+        <rdf:type rdf:resource="ftp://ftp.ebi.ac.uk/pub/databases/chebi/ontology/chebi.owl#Allowed"/>
+        <rdf:type rdf:resource="ftp://ftp.ebi.ac.uk/pub/databases/chebi/ontology/chebi.owl#Skin_Lightening_Agents"/>
+        <rdf:type>
+            <owl:Restriction>
+                <owl:onProperty rdf:resource="ftp://ftp.ebi.ac.uk/pub/databases/chebi/ontology/chebi.owl#isGoodFor"/>
+                <owl:someValuesFrom rdf:resource="ftp://ftp.ebi.ac.uk/pub/databases/chebi/ontology/chebi.owl#Associated_Conditions"/>
+            </owl:Restriction>
+        </rdf:type>
+        <hasRole rdf:resource="ftp://ftp.ebi.ac.uk/pub/databases/chebi/ontology/chebi.owl#Exfoliation"/>
+        <isBaseOf rdf:resource="ftp://ftp.ebi.ac.uk/pub/databases/chebi/ontology/chebi.owl#Exfoliating_Serum"/>
+        <chemicalFormula rdf:datatype="http://www.w3.org/2001/XMLSchema#string">C8H14O2S2</chemicalFormula>
+        <Chemical_Formula rdf:datatype="http://www.w3.org/2001/XMLSchema#string">C8H14O2S2</Chemical_Formula>
+        <obo2:Definition>The deficiency of l ác. thioctic or its blockage, which occurs in various intoxications or metabolic disorders, produce pathologically high concentrations of certain degradation products</obo2:Definition>
+        <obo2:InChI>1S/C8H14O2S2/c9-8(10)4-2-1-3-7-5-6-11-12-7/h7H,1-6H2,(H,9,10)</obo2:InChI>
+        <obo2:InChIKey>AGBQKNBQESQNJD-UHFFFAOYSA-N</obo2:InChIKey>
+        <obo2:SMILES>C1CSSC1CCCCC(=O)O</obo2:SMILES>
+        <obo2:Synonym>pentanoic acid</obo2:Synonym>
+    </owl:NamedIndividual>
+    
+
+
+    <!-- ftp://ftp.ebi.ac.uk/pub/databases/chebi/ontology/chebi.owl#Vitiligo -->
+
+    <owl:NamedIndividual rdf:about="ftp://ftp.ebi.ac.uk/pub/databases/chebi/ontology/chebi.owl#Vitiligo">
+        <rdf:type rdf:resource="ftp://ftp.ebi.ac.uk/pub/databases/chebi/ontology/chebi.owl#Depigmentation"/>
+    </owl:NamedIndividual>
+    
+
+
+    <!-- ftp://ftp.ebi.ac.uk/pub/databases/chebi/ontology/chebi.owl#Wounds -->
+
+    <owl:NamedIndividual rdf:about="ftp://ftp.ebi.ac.uk/pub/databases/chebi/ontology/chebi.owl#Wounds">
+        <rdf:type rdf:resource="ftp://ftp.ebi.ac.uk/pub/databases/chebi/ontology/chebi.owl#Skin_injuries"/>
+        <obo2:Definition>Wound is a traumatic condition usually limited to those caused by physical action with the disruption of the normal continuity of a structure and is usually referred to as injury and trauma; the occurrence of wounds or injuries to the skin or underlying tissue caused by surgery / surgery, trauma, or injections.</obo2:Definition>
+    </owl:NamedIndividual>
+    
+
+
+    <!-- 
+    ///////////////////////////////////////////////////////////////////////////////////////
+    //
+    // General axioms
+    //
+    ///////////////////////////////////////////////////////////////////////////////////////
+     -->
+
+    <rdf:Description>
+        <rdf:type rdf:resource="http://www.w3.org/2002/07/owl#AllDisjointClasses"/>
+        <owl:members rdf:parseType="Collection">
+            <rdf:Description rdf:about="ftp://ftp.ebi.ac.uk/pub/databases/chebi/ontology/chebi.owl#Cream"/>
+            <rdf:Description rdf:about="ftp://ftp.ebi.ac.uk/pub/databases/chebi/ontology/chebi.owl#Moisturizer"/>
+            <rdf:Description rdf:about="ftp://ftp.ebi.ac.uk/pub/databases/chebi/ontology/chebi.owl#Serum"/>
+            <rdf:Description rdf:about="ftp://ftp.ebi.ac.uk/pub/databases/chebi/ontology/chebi.owl#Toner"/>
+        </owl:members>
+    </rdf:Description>
+    <rdf:Description>
+        <rdf:type rdf:resource="http://www.w3.org/2002/07/owl#AllDifferent"/>
+        <owl:distinctMembers rdf:parseType="Collection">
+            <rdf:Description rdf:about="ftp://ftp.ebi.ac.uk/pub/databases/chebi/ontology/chebi.owl#Alpha_hidroxy_acid"/>
+            <rdf:Description rdf:about="ftp://ftp.ebi.ac.uk/pub/databases/chebi/ontology/chebi.owl#Arbutin"/>
+            <rdf:Description rdf:about="ftp://ftp.ebi.ac.uk/pub/databases/chebi/ontology/chebi.owl#Ascorbic_acid"/>
+            <rdf:Description rdf:about="ftp://ftp.ebi.ac.uk/pub/databases/chebi/ontology/chebi.owl#Azelaic_acid"/>
+            <rdf:Description rdf:about="ftp://ftp.ebi.ac.uk/pub/databases/chebi/ontology/chebi.owl#Glycolic_acid"/>
+            <rdf:Description rdf:about="ftp://ftp.ebi.ac.uk/pub/databases/chebi/ontology/chebi.owl#Glycyrrhetinic_acid"/>
+            <rdf:Description rdf:about="ftp://ftp.ebi.ac.uk/pub/databases/chebi/ontology/chebi.owl#Hydroquinone"/>
+            <rdf:Description rdf:about="ftp://ftp.ebi.ac.uk/pub/databases/chebi/ontology/chebi.owl#Kojic_acid"/>
+            <rdf:Description rdf:about="ftp://ftp.ebi.ac.uk/pub/databases/chebi/ontology/chebi.owl#Lactic_acid"/>
+            <rdf:Description rdf:about="ftp://ftp.ebi.ac.uk/pub/databases/chebi/ontology/chebi.owl#Linoleic_acid"/>
+            <rdf:Description rdf:about="ftp://ftp.ebi.ac.uk/pub/databases/chebi/ontology/chebi.owl#Liquiritin"/>
+            <rdf:Description rdf:about="ftp://ftp.ebi.ac.uk/pub/databases/chebi/ontology/chebi.owl#Mequinol"/>
+            <rdf:Description rdf:about="ftp://ftp.ebi.ac.uk/pub/databases/chebi/ontology/chebi.owl#Mercury"/>
+            <rdf:Description rdf:about="ftp://ftp.ebi.ac.uk/pub/databases/chebi/ontology/chebi.owl#Niacinamide"/>
+            <rdf:Description rdf:about="ftp://ftp.ebi.ac.uk/pub/databases/chebi/ontology/chebi.owl#Salicylic_acid"/>
+            <rdf:Description rdf:about="ftp://ftp.ebi.ac.uk/pub/databases/chebi/ontology/chebi.owl#Thioctic_acid"/>
+        </owl:distinctMembers>
+    </rdf:Description>
+    <rdf:Description>
+        <rdf:type rdf:resource="http://www.w3.org/2002/07/owl#AllDifferent"/>
+        <owl:distinctMembers rdf:parseType="Collection">
+            <rdf:Description rdf:about="ftp://ftp.ebi.ac.uk/pub/databases/chebi/ontology/chebi.owl#Brightening_Serum"/>
+            <rdf:Description rdf:about="ftp://ftp.ebi.ac.uk/pub/databases/chebi/ontology/chebi.owl#Day_cream"/>
+            <rdf:Description rdf:about="ftp://ftp.ebi.ac.uk/pub/databases/chebi/ontology/chebi.owl#Exfoliating_Serum"/>
+            <rdf:Description rdf:about="ftp://ftp.ebi.ac.uk/pub/databases/chebi/ontology/chebi.owl#Exfoliating_toner"/>
+            <rdf:Description rdf:about="ftp://ftp.ebi.ac.uk/pub/databases/chebi/ontology/chebi.owl#Hydrating_moisturizer"/>
+            <rdf:Description rdf:about="ftp://ftp.ebi.ac.uk/pub/databases/chebi/ontology/chebi.owl#Night_cream"/>
+        </owl:distinctMembers>
+    </rdf:Description>
+</rdf:RDF>
+
+
+
+<!-- Generated by the OWL API (version 4.5.9.2019-02-01T07:24:44Z) https://github.com/owlcs/owlapi -->
+
